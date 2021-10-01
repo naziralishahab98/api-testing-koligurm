@@ -1,0 +1,154 @@
+Request method:	POST
+-Request URI:	http://localhost:1234/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+#Headers:		accept=application/json
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "muhammad",
+    "lastName": "wildan",
+    "age": 24,
+    "occupation": "Kurir",
+     "nationality": "Indonesia",
+    "hobbies": [
+        "Futsal"
+    ],
+    "gender": "MALE"
+}
+{
+2    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
+    "firstName": "muhammad",
+    "lastName": "wildan",
+    "age": 24,
+    "occupation": "Kurir",
+     "nationality": "Indonesia",
+    "hobbies": [
+        "Futsal"
+    ],
+    "gender": "MALE",
+2    "createdDate": "2021-09-18T13:31:14.5143597",
+    "updatedDate": null
+}
+Request method:	GET
+RRequest URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+6Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
+#Headers:		accept=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+2    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
+    "firstName": "muhammad",
+    "lastName": "wildan",
+    "age": 24,
+    "occupation": "Kurir",
+     "nationality": "Indonesia",
+    "hobbies": [
+        "Futsal"
+    ],
+    "gender": "MALE",
+2    "createdDate": "2021-09-18T13:31:14.5143597",
+    "updatedDate": null
+}
+Request method:	PUT
+-Request URI:	http://localhost:1234/v1/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+#Headers:		accept=application/json
+2				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+2    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
+"    "firstName": "muhammad edit",
+    "lastName": "wildan edit",
+    "age": 24,
+    "occupation": "Kurir",
+     "nationality": "Indonesia",
+    "hobbies": [
+        "Futsal"
+    ],
+    "gender": "MALE"
+}
+{
+2    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
+"    "firstName": "muhammad edit",
+    "lastName": "wildan edit",
+    "age": 24,
+    "occupation": "Kurir",
+     "nationality": "Indonesia",
+    "hobbies": [
+        "Futsal"
+    ],
+    "gender": "MALE",
+2    "createdDate": "2021-09-18T13:31:14.5143597",
+1    "updatedDate": "2021-09-18T13:31:15.1466227"
+}
+Request method:	GET
+RRequest URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+6Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
+#Headers:		accept=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+2    "id": "88116594-487b-4ecc-9737-26ce4e1ee1eb",
+"    "firstName": "muhammad edit",
+    "lastName": "wildan edit",
+    "age": 24,
+    "occupation": "Kurir",
+     "nationality": "Indonesia",
+    "hobbies": [
+        "Futsal"
+    ],
+    "gender": "MALE",
+2    "createdDate": "2021-09-18T13:31:14.5143597",
+1    "updatedDate": "2021-09-18T13:31:15.1466227"
+}
+Request method:	DELETE
+RRequest URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+6Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
+#Headers:		accept=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+
+Request method:	GET
+RRequest URI:	http://localhost:1234/v1/users/88116594-487b-4ecc-9737-26ce4e1ee1eb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+6Path params:	id=88116594-487b-4ecc-9737-26ce4e1ee1eb
+#Headers:		accept=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+{
+    "errorCode": "ER-01",
+    "statusCode": 404,
+!    "message": "user not found",
+/    "timestamp": "2021-09-18T13:31:15.2247301"
+}
